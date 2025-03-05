@@ -1,0 +1,2 @@
+# lightMarkDown
+一个轻量的markdown编辑器，现在markdown编辑器就没个好用的吗
