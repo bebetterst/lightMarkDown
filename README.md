@@ -1,5 +1,5 @@
 # lightMarkDown
-一个轻量的markdown编辑器，实时预览和一些简单的Markdown扩展功能。
+一个轻量的markdown编辑器，全部由Trae生成，支持实时预览和一些简单的Markdown扩展功能。
 
 ## 功能特点
 
