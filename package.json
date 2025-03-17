@@ -1,0 +1,36 @@
+{
+  "name": "md-editor",
+  "version": "0.1.0",
+  "description": "协作式Markdown编辑器，支持实时协作和文本自动美化",
+  "main": "electron/main.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "server": "node server/index.js",
+    "electron-dev": "cross-env NODE_ENV=development electron ."
+  },
+  "keywords": [
+    "markdown",
+    "editor",
+    "collaboration",
+    "real-time",
+    "formatting"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "express": "^4.21.2",
+    "highlight.js": "^11.11.1",
+    "katex": "^0.16.21",
+    "marked": "^15.0.7",
+    "mermaid": "^11.5.0",
+    "socket.io": "^4.8.1",
+    "vue": "^3.4.15"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "electron": "^34.3.0"
+  }
+}
